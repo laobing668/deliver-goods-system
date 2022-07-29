@@ -97,7 +97,7 @@
         <span>仓库：OLATY</span>
       </p> -->
       <div class="tableBox">
-        <el-table :data="tableData" height="250" border style="width: 100%">
+        <el-table :data="tableData" height="350" border style="width: 100%">
           <el-table-column prop="date" label="条码号"> </el-table-column>
           <el-table-column prop="name" label="订单数量"> </el-table-column>
           <el-table-column prop="address" label="扫描数量"> </el-table-column>
@@ -230,11 +230,11 @@
 </template>
 <style scoped lang="scss">
 ::v-deep .font13 {
-  font-size: 13px;
+  font-size: 14px;
   .el-checkbox {
-    font-size: 13px;
+    font-size: 14px;
     .el-checkbox__label {
-      font-size: 13px;
+      font-size: 14px;
     }
   }
 }
@@ -269,7 +269,7 @@
     // background: pink;
     overflow-x: auto;
     margin-right: 1.5%;
-    font-size: 13px;
+    font-size: 14px;
     .topTips {
       font-weight: 700;
       font-size: 15px;
@@ -284,7 +284,7 @@
   .right {
     width: 63.5%;
     height: 100%;
-    font-size: 13px;
+    font-size: 14px;
     .tableBox {
       border: 1px solid #f6f6f6;
       box-sizing: border-box;
@@ -307,7 +307,7 @@
       }
     }
     .box3 {
-      font-size: 13px;
+      font-size: 14px;
       .el-checkbox {
         margin-bottom: 15px;
       }
@@ -328,7 +328,7 @@
           justify-content: center;
           border-radius: 4px;
           color: #fff;
-          font-size: 13px;
+          font-size: 14px;
         }
       }
       .right {
@@ -361,7 +361,7 @@
 ::v-deep .tableBox {
   .el-table__cell {
     padding: 5px 0;
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 ::v-deep .el-dialog {
@@ -397,6 +397,18 @@ export default {
         address: '上海市普陀区金沙江路 1518 弄'
       }, {
         date: '2016-05-08',
+        name: '王小虎',
+        address: '上海市普陀区金沙江路 1518 弄'
+      }, {
+        date: '2016-05-06',
+        name: '王小虎',
+        address: '上海市普陀区金沙江路 1518 弄'
+      }, {
+        date: '2016-05-06',
+        name: '王小虎',
+        address: '上海市普陀区金沙江路 1518 弄'
+      }, {
+        date: '2016-05-06',
         name: '王小虎',
         address: '上海市普陀区金沙江路 1518 弄'
       }, {

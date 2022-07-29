@@ -54,10 +54,10 @@ export default {
   },
   methods: {
     test() {
-      console.log(this.$store.state)
+      console.log('store1',this.$store.state)
     },
     async login(){
-      localStorage.setItem('goodsSystemUserInfo','test')
+      localStorage.setItem('gsuToken','test111')
       // this.$router.push({
       //   name: "/",
       // });
